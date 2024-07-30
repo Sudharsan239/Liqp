@@ -82,6 +82,11 @@ public abstract class LValue {
             return true;
         }
 
+        if(a.toString().equals(b.toString()))
+        {
+            return true;
+        }
+
         return a.equals(b);
     }
 
